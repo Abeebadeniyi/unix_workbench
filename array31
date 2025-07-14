@@ -1,0 +1,7 @@
+#!/bin/bash
+my_array_2=(apple man get here yes)
+for elements in ${my_array_2[@]o
+}
+do
+	echo "${#my_array_2[@]} * ${#elements}" | bc -l
+done
